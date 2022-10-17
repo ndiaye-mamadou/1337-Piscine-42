@@ -15,7 +15,8 @@ int	main()
 	int b;
 	int x;
 	int y;
-
+        int *div = &x;
+        int *mod = &y;
 	a = 10;
 	b = 5;
 	ft_div_mod(a, b, div, mod);
